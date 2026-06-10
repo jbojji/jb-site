@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Impressum — Jens Botzenhardt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .impressum-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: calc(80px + var(--space-xl)) var(--space-md) var(--space-xl);
+    }
+    .impressum-wrap h1 {
+      font-size: 2rem;
+      margin-bottom: var(--space-lg);
+      color: var(--dark);
+    }
+    .impressum-wrap h2 {
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-top: var(--space-lg);
+      margin-bottom: var(--space-sm);
+    }
+    .impressum-wrap p,
+    .impressum-wrap address {
+      font-size: 0.95rem;
+      color: var(--mid);
+      font-style: normal;
+      line-height: 1.8;
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: var(--space-lg);
+      transition: color 0.2s;
+    }
+    .back-link:hover { color: var(--dark); }
+    .placeholder {
+      background: rgba(232, 201, 122, 0.25);
+      border: 1px dashed var(--sand);
+      border-radius: 2px;
+      padding: 2px 6px;
+      font-size: 0.85rem;
+      color: var(--plum);
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">
+      <div class="bar-mark" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+      <span class="nav-name">Jens Botzenhardt</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html#experience">Experience</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a href="impressum.html">Impressum</a></li>
+    </ul>
+  </nav>
+
+  <div class="impressum-wrap">
+    <a class="back-link" href="index.html">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="15 18 9 12 15 6"/>
+      </svg>
+      Zurück
+    </a>
+
+    <div class="bar-mark" aria-hidden="true" style="margin-bottom: 24px;">
+      <span></span><span></span><span></span>
+    </div>
+
+    <h1>Impressum</h1>
+
+    <h2>Angaben gemäß § 5 TMG</h2>
+    <address>
+      Jens Botzenhardt<br>
+      <span class="placeholder">Straße und Hausnummer</span><br>
+      <span class="placeholder">PLZ</span> <span class="placeholder">Stadt</span><br>
+      Deutschland
+    </address>
+
+    <h2>Kontakt</h2>
+    <p>
+      Telefon: <span class="placeholder">+49 000 000 0000</span><br>
+      E-Mail: <a href="mailto:hello@jensbotzenhardt.de">hello@jensbotzenhardt.de</a>
+    </p>
+
+    <h2>Umsatzsteuer-ID</h2>
+    <p>
+      Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:<br>
+      <span class="placeholder">DE000000000</span>
+    </p>
+
+    <h2>Berufsbezeichnung und berufsrechtliche Regelungen</h2>
+    <p>
+      Berufsbezeichnung: Freiberuflicher Unternehmensberater<br>
+      Zuständige Kammer: <span class="placeholder">ggf. zuständige Kammer eintragen oder entfernen</span>
+    </p>
+
+    <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
+    <address>
+      Jens Botzenhardt<br>
+      <span class="placeholder">Adresse wie oben</span>
+    </address>
+
+    <h2>Haftungsausschluss</h2>
+    <p>
+      Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden. Als Diensteanbieter bin ich gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.
+    </p>
+
+    <h2>Urheberrecht</h2>
+    <p>
+      Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+    </p>
+  </div>
+
+  <footer>
+    <span class="footer-left">© 2026 Jens Botzenhardt</span>
+    <div class="footer-right">
+      <a href="impressum.html">Impressum</a>
+    </div>
+  </footer>
+
+</body>
+</html>
